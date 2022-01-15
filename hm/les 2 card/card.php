@@ -44,7 +44,7 @@ $items = [
        <h2>Все инструменты</h2>
        <?php foreach ($items as $item): ?>
        <div>
-         <h3> <?= $items['title']?> </h3>
+         <h3> <?= $item['title']?> </h3>
          <img height="300" src="img/<?= $items['img'] ?>">
          <p>Цена: <?= $items['price']?></p>
          <p>Материал: <?= $items['description']['material']?></p>
